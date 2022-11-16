@@ -25,11 +25,12 @@ for (int i = 0; i < array.Length; i++)
 }
 Console.Write($"\nКоличество положительных чисел, введенных пользователем: {countPozitiv}");
 
-/* вариант ввода с консоли чисел и помещение их в масив, найден в Интернете
+/* вариант ввода с консоли чисел и помещение их в масив,
+ найден в Интернете, значительно сокращает код*/
+/*
 Console.Write("Введите элементы(через пробел): ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
- 
 for (int i = 0; i < arr.Length; i++)
 {
     if (arr[i] > 0)
@@ -37,6 +38,5 @@ for (int i = 0; i < arr.Length; i++)
         count++;
     }
 }
- 
 Console.WriteLine($"Кол-во элементов > 0: {count}");
 */
